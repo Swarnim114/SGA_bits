@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Portfolio - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        nav {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ffd700;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .hero-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="hero">
+            <div class="hero-icon">🚀</div>
+            <h1>Welcome to DevOps Portfolio</h1>
+            <p>Building, Testing, and Deploying with Excellence</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <h3>Version Control</h3>
+                <p>Git & GitHub expertise for efficient code management</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🐳</div>
+                <h3>Containerization</h3>
+                <p>Docker containers for consistent deployments</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚙️</div>
+                <h3>CI/CD Pipeline</h3>
+                <p>Automated testing and continuous delivery</p>
+            </div>
+        </div>
+        
+        <div style="margin-top: 2rem; padding: 1rem; background-color: #e8f4f8; border-left: 4px solid #667eea; border-radius: 4px;">
+            <h3>📌 Assignment Project</h3>
+            <p>This web application demonstrates Git version control and Docker containerization skills for the DevOps course assignment.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 DevOps Portfolio | Created for Coursera Assignment</p>
+    </footer>
+</body>
+</html>

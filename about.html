@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Portfolio - About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        nav {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ffd700;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline {
+            margin-top: 2rem;
+        }
+        
+        .timeline-item {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid #667eea;
+            background-color: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .timeline-item h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .skill-tag {
+            background-color: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>📚 About This Project</h1>
+        <p>This project is part of a comprehensive DevOps assignment that covers fundamental concepts in modern software development and deployment practices.</p>
+        
+        <h2>🎯 Learning Objectives</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Version Control with Git</h3>
+                <p>Understanding and implementing Git workflows including initialization, staging, committing, branching, and merging code changes.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <h3>GitHub Collaboration</h3>
+                <p>Setting up remote repositories, pushing code to GitHub, and understanding collaborative development workflows.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <h3>Docker Containerization</h3>
+                <p>Creating Docker images, writing Dockerfiles, and deploying containerized applications for consistent environments.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <h3>Docker Hub Registry</h3>
+                <p>Publishing Docker images to Docker Hub and pulling them for deployment across different systems.</p>
+            </div>
+        </div>
+        
+        <h2>💻 Technologies Used</h2>
+        <div class="skills">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Docker Hub</span>
+            <span class="skill-tag">Linux</span>
+        </div>
+        
+        <h2>📋 Assignment Components</h2>
+        <p><strong>Question 1:</strong> Setting up local Git repository, demonstrating Git commands, and integrating with GitHub.</p>
+        <p><strong>Question 2:</strong> Creating a Docker image, pushing to Docker Hub, and running containers locally.</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 DevOps Portfolio | Created for Coursera Assignment</p>
+    </footer>
+</body>
+</html>
